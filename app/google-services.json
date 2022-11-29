@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "875193638040",
+    "project_id": "wprofit-ef7bc",
+    "storage_bucket": "wprofit-ef7bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875193638040:android:dff34fe445aa3a9ec684ed",
+        "android_client_info": {
+          "package_name": "com.wprofit.wprofitt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875193638040-d50rnlkdnrkeio7kq62ospqabe0qhc75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0w0ofRWgVIDEvsFjupH2mf6o2qNE-wWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875193638040-d50rnlkdnrkeio7kq62ospqabe0qhc75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

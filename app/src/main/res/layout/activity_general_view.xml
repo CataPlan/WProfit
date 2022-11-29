@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".general_view"
+    android:background="@drawable/gradinebg">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="30dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="532dp"
+        app:cardMaxElevation="50dp"
+        app:cardBackgroundColor="#52B596"
+
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="My Balance"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/white"
+            android:text="$320,300"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="409dp"
+        android:text="Service"
+        android:textColor="#ECE3C1"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="312dp"
+        android:layout_height="308dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="90dp"
+        app:cardBackgroundColor="#52B596"
+        app:cardCornerRadius="30dp"
+
+        app:cardMaxElevation="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="72dp"
+                android:layout_height="80dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="205dp"
+                android:layout_marginBottom="187dp"
+                app:srcCompat="@drawable/carrito" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="168dp"
+                android:layout_marginBottom="158dp"
+                android:text="Shopping"
+                android:textColor="@color/amarilla"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="85dp"
+                android:layout_height="74dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="41dp"
+                android:layout_marginBottom="192dp"
+                app:srcCompat="@drawable/discount" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="155dp"
+                android:text="Discount"
+                android:textColor="@color/amarilla"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="64dp"
+                android:layout_height="71dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="205dp"
+                android:layout_marginBottom="60dp"
+                app:srcCompat="@drawable/smartphone" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="149dp"
+                android:layout_marginBottom="23dp"
+                android:text="Mobile Pay"
+                android:textColor="@color/amarilla"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/maps"
+                android:layout_width="56dp"
+                android:layout_height="58dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="47dp"
+                android:layout_marginBottom="68dp"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/google_maps" />
+
+            <TextView
+                android:id="@+id/txtmaps"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-14dp"
+                android:layout_marginBottom="20dp"
+                android:onClick="onClick"
+                android:text="Maps"
+                android:textColor="@color/amarilla"
+                android:textSize="25dp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/cerrarsesion"
+    android:layout_width="25dp"
+    android:layout_height="35dp"
+        android:backgroundTint="#E41010"
+
+        android:text="X"
+        app:cornerRadius="20dp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="709dp"
+        app:cardBackgroundColor="@color/amarilla"
+        app:cardCornerRadius="180dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="P"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
